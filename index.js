@@ -1,6 +1,6 @@
 var inquirer = require("inquirer");
 var fs = require('fs');
-var fileName = "readme.MD";
+
 
 inquirer.prompt([
     {
@@ -9,7 +9,9 @@ inquirer.prompt([
         message: "What is your name?"
     }
 ]).then(function writeToFile(fileName, data) {
+    var fileName = "readme.MD";
     fs.writeFile(fileName, JSON.stringify(data, null, '/t'), function (err) {
+
         if (err) {
             return console.log(err);
         }
