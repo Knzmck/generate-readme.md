@@ -5,24 +5,30 @@ var fs = require('fs');
 inquirer.prompt([
     {
         type: "input",
-        name: "name", 
-        message: "What is your name?"
+        name: "title", 
+        message: "What is the title of your project?",
+    },
+    {
+        type: "input",
+        name: "motivation", 
+        message: "What is your motivation for creating and maintaining this project?"
     }
-]).then(function writeToFile(fileName, data) {
+]).then(function writeToFile(data) {
     var fileName = "readme.MD";
-    fs.writeFile(fileName, JSON.stringify(data, null, '/t'), function (err) {
-
+    fs.writeFile(fileName, JSON.stringify(data), function (err) {
         if (err) {
             return console.log(err);
         }
-        console.log("success!")
+        console.log("success!");
+        const questions = [
+            `# ${data.title}`
+        ];
+        console.log(questions)
     })
 });
 
 
-// const questions = [
 
-// ];
 
 
 
