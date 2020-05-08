@@ -1,9 +1,9 @@
-var inquirer = require("inquirer");
-var fs = require('fs');
+const inquirer = require("inquirer");
+const fs = require('fs');
+const generateMarkdown = require("./utils/generateMarkdown")
+const util = require("util");
+const axios = require("axios")
 
-const questions = [
-
-];
 
 function promptFunction () {
 inquirer.prompt([
@@ -20,7 +20,7 @@ inquirer.prompt([
 ])
 
 function writeToFile(data) {
-    var fileName = "readme.MD";
+    var fileName = "readme.JSON";
     fs.writeFile(fileName, JSON.stringify(data), function (err) {
         if (err) {
             return console.log(err);
