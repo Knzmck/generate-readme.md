@@ -1,38 +1,38 @@
 var inquirer = require("inquirer");
 var fs = require('fs');
 
+const questions = [
 
+];
+
+function promptFunction () {
 inquirer.prompt([
     {
         type: "input",
-        name: "title", 
+        name: "title",
         message: "What is the title of your project?",
     },
     {
         type: "input",
-        name: "motivation", 
+        name: "motivation",
         message: "What is your motivation for creating and maintaining this project?"
     }
-]).then(function writeToFile(data) {
+])
+
+function writeToFile(data) {
     var fileName = "readme.MD";
     fs.writeFile(fileName, JSON.stringify(data), function (err) {
         if (err) {
             return console.log(err);
         }
         console.log("success!");
-        const questions = [
-            `# ${data.title}`
-        ];
-        console.log(questions)
     })
-});
+}
+};
 
 
-
-
-
-
-function init() {
+// Initialize repository
+async function init() {
 
 }
 
