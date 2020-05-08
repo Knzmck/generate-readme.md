@@ -2,7 +2,10 @@ const inquirer = require("inquirer");
 const fs = require('fs');
 const generateMarkdown = require("./util/generateMarkdown")
 const util = require("util");
-const axios = require("axios")
+const axios = require("axios");
+
+const writeFileAsync = util.promisify(fs.writeFile);
+
 
 questions = [
     {
@@ -17,9 +20,10 @@ questions = [
     }
 ]
 
-function writeToFile(data) {
-    var fileName = "README.md";
-    fs.writeFile(fileName, JSON.stringify(data), function (err) {
+function writeToFile() {
+    var fileName = "README.MD";
+    let data; 
+    fs.writeFile(fileName, data, function (err) {
         if (err) {
             return console.log(err);
         }
@@ -32,7 +36,10 @@ function writeToFile(data) {
 async function init() {
 try {
     const readmeInfo = await inquirer.prompt(questions);
-    console.log(readmeInfo);
+    const data = generateMarkdown(readmeInfo);
+
+    console.log(data)
+    await writeFileAsync ("README.md", data);
 } catch (err) {
     console.log(err)
 }
