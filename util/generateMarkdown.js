@@ -12,35 +12,35 @@ function generateMarkdown(data) {
    
    ## About 
 
-   ${data.motivation}
+   ...${data.motivation}..
 
-   ${data.description}
+   ...${data.description}..
 
    ## Installation 
 
-   ${data.installation}
+   ...${data.installation}
 
    ## Usage
 
-   ${data.usage}
+   ...${data.usage}
 
    ## License 
 
-   ${data.license}
+   ...${data.license}
 
    ## Contributing 
 
-   ${data.contributing}
+   ...${data.contributing}..
 
-   ${data.user}
+   ...${data.user}
 
    ## Tests 
 
-   ${data.tests}
+   ...${data.tests}
 
    ## Questions
-   
-   ${data.questions}
+
+   ...${data.questions}..
 
    `;
 }
