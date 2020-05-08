@@ -1,4 +1,4 @@
-#  Really Cool Project
+#  Project title
 
    ## Table of Contents
    * About 
@@ -10,26 +10,35 @@
    * Questions
    
    ## About 
-   this is the motivation for developing the app
-   this is a short description of the project
+
+   ...motivation of project..
+
+   ...description of project..
 
    ## Installation 
-   Here are instructions to install it
+
+   ...instructions
 
    ## Usage
-   This is how you use it
+
+   ...use
 
    ## License 
-   undefined
+
+   ...undefined
 
    ## Contributing 
-   Mackenzie Schutz
-   Knzmck
+
+   ...ksdjfljas..
+
+   ...skadjfljas
 
    ## Tests 
-   Here is a link to show the app
+
+   ...sdjfkljas
 
    ## Questions
-   I would still like to know how to do this?
+
+   ...djfladjsf..
 
    
