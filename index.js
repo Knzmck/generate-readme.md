@@ -6,7 +6,6 @@ const axios = require("axios");
 
 const writeFileAsync = util.promisify(fs.writeFile);
 
-
 questions = [
     {
         type: "input",
@@ -15,34 +14,58 @@ questions = [
     },
     {
         type: "input",
+        name: "description",
+        message: "Describe your project"
+    },
+    {
+        type: "input",
         name: "motivation",
         message: "What is your motivation for creating and maintaining this project?"
+    },
+    {
+        type: "input",
+        name: "installation",
+        message: "What are the instructions for installing this application?"
+    },
+    {
+        type: "input",
+        name: "usage",
+        message: "How do you use this application?"
+    },
+    {
+        type: "input",
+        name: "contributing",
+        message: "Who contributed to this application?"
+    },
+    {
+        type: "input",
+        name: "tests",
+        message: "Attach a link to image or video showing a test to this application"
+    },
+    {
+        type: "input",
+        name: "questions",
+        message: "What questions still need to be resolved for this application?"
+    },
+    {
+        type: "input",
+        name: "user",
+        message: "What is your github username? "
     }
+
 ]
-
-function writeToFile() {
-    var fileName = "README.MD";
-    let data; 
-    fs.writeFile(fileName, data, function (err) {
-        if (err) {
-            return console.log(err);
-        }
-    })
-}
-;
-
 
 // Initialize repository
 async function init() {
-try {
-    const readmeInfo = await inquirer.prompt(questions);
-    const data = generateMarkdown(readmeInfo);
+    try {
+        const readmeInfo = await inquirer.prompt(questions);
+        const data = generateMarkdown(readmeInfo);
 
-    console.log(data)
-    await writeFileAsync ("README.md", data);
-} catch (err) {
-    console.log(err)
-}
+        console.log(data)
+        await writeFileAsync("README.md", data);
+    } catch (err) {
+        console.log(err)
+    }
 }
 
 init();
@@ -64,3 +87,27 @@ init();
 
 // write function to write file
 // Write function to initialize repository
+
+
+// usernameq = [
+//     {
+//         type: "input",
+//         name: "user",
+//         message: "What is your github username? "
+//     }
+// ]
+
+// // Verify github username
+// async function usernameVerify() {
+// try { 
+//     const username = await inquirer.prompt(usernameq);
+
+//     axios 
+//     .get("https://github.com/" + username)
+//     .then((response) => {
+//        return usernameq
+//     })
+// } catch (err) {
+//     console.log("Please enter a valid github username");
+// }
+// }
