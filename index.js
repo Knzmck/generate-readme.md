@@ -1,12 +1,10 @@
 const inquirer = require("inquirer");
 const fs = require('fs');
-const generateMarkdown = require("./utils/generateMarkdown")
+const generateMarkdown = require("./util/generateMarkdown")
 const util = require("util");
 const axios = require("axios")
 
-
-function promptFunction () {
-inquirer.prompt([
+questions = [
     {
         type: "input",
         name: "title",
@@ -17,23 +15,27 @@ inquirer.prompt([
         name: "motivation",
         message: "What is your motivation for creating and maintaining this project?"
     }
-])
+]
 
 function writeToFile(data) {
-    var fileName = "readme.JSON";
+    var fileName = "README.md";
     fs.writeFile(fileName, JSON.stringify(data), function (err) {
         if (err) {
             return console.log(err);
         }
-        console.log("success!");
     })
 }
-};
+;
 
 
 // Initialize repository
 async function init() {
-
+try {
+    const readmeInfo = await inquirer.prompt(questions);
+    console.log(readmeInfo);
+} catch (err) {
+    console.log(err)
+}
 }
 
 init();
