@@ -1,48 +1,50 @@
-#  hi
+#  title
 
-   ## Table of Contents
-   * About 
-   * Installation 
-   * Usage
-   * License
+   ## Table of Contents  
+   * About  
+   * Installation   
+   * Usage  
+   * License  
    * Contributing 
    * Tests 
-   * Questions
+   * Developer  
+   * Questions  
    
    ## About   
 
-   stuff  
+   things  
 
-   bye  
+   stuff  
 
    ## Installation   
 
-   things  
+   places  
 
    ## Usage  
 
-   dfjs  
+   hi  
 
    ## License  
 
-   [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)  
+   [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)  
  
 
    ## Contributing  
 
-   stuff  
+   i did  
 
 
    ## Tests  
 
    link  
 
-   ## Questions  
-
-   q  
-
    ## Developer  
 
    <img src="https://avatars.githubusercontent.com/undefined" style="height: 25px; width: 25px; border-radius: 100%;">   
+   undefined
+   ## Questions  
+
+   Please direct all questions to development at this email knz@email.com  
+
 
    

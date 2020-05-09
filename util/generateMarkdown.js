@@ -1,14 +1,15 @@
 function generateMarkdown(data) {
   return `#  ${data.title}
 
-   ## Table of Contents
-   * About 
-   * Installation 
-   * Usage
-   * License
+   ## Table of Contents  
+   * About  
+   * Installation   
+   * Usage  
+   * License  
    * Contributing 
    * Tests 
-   * Questions
+   * Developer  
+   * Questions  
    
    ## About   
 
@@ -38,16 +39,16 @@ function generateMarkdown(data) {
 
    ${data.tests}  
 
-   ## Questions  
-
-   ${data.questions}  
-
    ## Developer  
 
    <img src="https://avatars.githubusercontent.com/${data.username}" style="height: 25px; width: 25px; border-radius: 100%;">   
+   ${data.username}
+   ## Questions  
+
+   Please direct all questions to development at this email ${data.questions}  
+
 
    `;
-   console.log(data.username)
 }
 
 module.exports = generateMarkdown;

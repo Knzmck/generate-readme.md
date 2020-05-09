@@ -55,7 +55,7 @@ questions = [
     {
         type: "input",
         name: "questions",
-        message: "What questions still need to be resolved for this application?"
+        message: "What email should people send their questions or concerns to?"
     },
     {
         type: "input",
