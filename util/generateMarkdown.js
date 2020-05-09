@@ -43,9 +43,10 @@ function generateMarkdown(data) {
 
    ## Developer  
 
-   <img src = "https://avatars.githubusercontent.com/${data.username}">   
+   <img src="https://avatars.githubusercontent.com/${data.username}" style="height: 25px; width: 25px; border-radius: 100%">   
 
    `;
+   console.log(data.username)
 }
 
 module.exports = generateMarkdown;

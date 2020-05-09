@@ -11,37 +11,37 @@
    
    ## About   
 
-   things  
+   thigns   
 
    stuff  
 
    ## Installation   
 
-   hi  
+   stuff  
 
    ## Usage  
 
-   bye  
+   coolstuff  
 
    ## License  
 
-   This product is licensed by seya  
+   This product is licensed by hi  
 
    ## Contributing  
 
-   con  
+   bye  
 
 
    ## Tests  
 
-   oo  
+   yes  
 
    ## Questions  
 
-   stuf  
+   no  
 
    ## Developer  
 
-   <img src = "https://avatars.githubusercontent.com/undefined">   
+   <img src="https://avatars.githubusercontent.com/undefined" style="height: 25px; width: 25px; border-radius: 100%">   
 
    
