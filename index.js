@@ -33,10 +33,14 @@ questions = [
         message: "How do you use this application?"
     },
     {
-        type: "input", 
+        type: "list", 
+        message: "Choose a license for this application",
         name: "license",
-        message: "What individual or company licenses this project?",
-
+        choices: [
+            "Apache-2.0",
+            "BSD-3-Clause",
+            "BSD-2-Clause"
+        ]
     },
     {
         type: "input",

@@ -1,4 +1,4 @@
-#  title
+#  hi
 
    ## Table of Contents
    * About 
@@ -11,37 +11,38 @@
    
    ## About   
 
-   thigns   
-
    stuff  
+
+   bye  
 
    ## Installation   
 
-   stuff  
+   things  
 
    ## Usage  
 
-   coolstuff  
+   dfjs  
 
    ## License  
 
-   This product is licensed by hi  
+   [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)  
+ 
 
    ## Contributing  
 
-   bye  
+   stuff  
 
 
    ## Tests  
 
-   yes  
+   link  
 
    ## Questions  
 
-   no  
+   q  
 
    ## Developer  
 
-   <img src="https://avatars.githubusercontent.com/undefined" style="height: 25px; width: 25px; border-radius: 100%">   
+   <img src="https://avatars.githubusercontent.com/undefined" style="height: 25px; width: 25px; border-radius: 100%;">   
 
    

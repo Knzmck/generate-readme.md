@@ -26,7 +26,8 @@ function generateMarkdown(data) {
 
    ## License  
 
-   This product is licensed by ${data.license}  
+   [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/${data.license})  
+ 
 
    ## Contributing  
 
@@ -43,7 +44,7 @@ function generateMarkdown(data) {
 
    ## Developer  
 
-   <img src="https://avatars.githubusercontent.com/${data.username}" style="height: 25px; width: 25px; border-radius: 100%">   
+   <img src="https://avatars.githubusercontent.com/${data.username}" style="height: 25px; width: 25px; border-radius: 100%;">   
 
    `;
    console.log(data.username)
