@@ -26,13 +26,12 @@ function generateMarkdown(data) {
 
    ## License 
 
-   ...${data.license}
+   ...This product is licensed by ${data.license}.
 
    ## Contributing 
 
    ...${data.contributing}..
 
-   ...${data.user}
 
    ## Tests 
 
@@ -41,6 +40,10 @@ function generateMarkdown(data) {
    ## Questions
 
    ...${data.questions}..
+
+   ## Developer 
+
+   ...<img src = 'https://avatars.githubusercontent.com/<${data.user}'>..>
 
    `;
 }

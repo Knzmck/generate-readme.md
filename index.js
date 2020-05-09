@@ -33,6 +33,12 @@ questions = [
         message: "How do you use this application?"
     },
     {
+        type: "input", 
+        name: "license",
+        message: "What individual or company licenses this project?",
+
+    },
+    {
         type: "input",
         name: "contributing",
         message: "Who contributed to this application?"

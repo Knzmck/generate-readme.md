@@ -1,4 +1,4 @@
-#  Project title
+#  Project Title
 
    ## Table of Contents
    * About 
@@ -11,34 +11,37 @@
    
    ## About 
 
-   ...motivation of project..
+   ...motivation..
 
-   ...description of project..
+   ...description..
 
    ## Installation 
 
-   ...instructions
+   ...install npm 
 
    ## Usage
 
-   ...use
+   ...in the terminal
 
    ## License 
 
-   ...undefined
+   ...This product is licensed by liscense.
 
    ## Contributing 
 
-   ...ksdjfljas..
+   ...no one yet..
 
-   ...skadjfljas
 
    ## Tests 
 
-   ...sdjfkljas
+   ...link
 
    ## Questions
 
-   ...djfladjsf..
+   ...question..
+
+   ## Developer 
+
+   ...<img src = 'https://avatars.githubusercontent.com/<Knzmck'>..>
 
    
