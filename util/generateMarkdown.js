@@ -10,40 +10,40 @@ function generateMarkdown(data) {
    * Tests 
    * Questions
    
-   ## About 
+   ## About   
 
-   ...${data.motivation}..
+   ${data.motivation}  
 
-   ...${data.description}..
+   ${data.description}  
 
-   ## Installation 
+   ## Installation   
 
-   ...${data.installation}
+   ${data.installation}  
 
-   ## Usage
+   ## Usage  
 
-   ...${data.usage}
+   ${data.usage}  
 
-   ## License 
+   ## License  
 
-   ...This product is licensed by ${data.license}.
+   This product is licensed by ${data.license}  
 
-   ## Contributing 
+   ## Contributing  
 
-   ...${data.contributing}..
+   ${data.contributing}  
 
 
-   ## Tests 
+   ## Tests  
 
-   ...${data.tests}
+   ${data.tests}  
 
-   ## Questions
+   ## Questions  
 
-   ...${data.questions}..
+   ${data.questions}  
 
-   ## Developer 
+   ## Developer  
 
-   ...<img src = 'https://avatars.githubusercontent.com/<${data.user}'>..>
+   <img src = 'https://avatars.githubusercontent.com/<${data.user}'>..>  
 
    `;
 }

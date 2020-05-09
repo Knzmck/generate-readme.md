@@ -1,4 +1,4 @@
-#  Project Title
+#  Title
 
    ## Table of Contents
    * About 
@@ -9,39 +9,39 @@
    * Tests 
    * Questions
    
-   ## About 
+   ## About   
 
-   ...motivation..
+   motiv  
 
-   ...description..
+   desc  
 
-   ## Installation 
+   ## Installation   
 
-   ...install npm 
+   instru  
 
-   ## Usage
+   ## Usage  
 
-   ...in the terminal
+   use  
 
-   ## License 
+   ## License  
 
-   ...This product is licensed by liscense.
+   This product is licensed by company  
 
-   ## Contributing 
+   ## Contributing  
 
-   ...no one yet..
+   me  
 
 
-   ## Tests 
+   ## Tests  
 
-   ...link
+   link  
 
-   ## Questions
+   ## Questions  
 
-   ...question..
+   questio  
 
-   ## Developer 
+   ## Developer  
 
-   ...<img src = 'https://avatars.githubusercontent.com/<Knzmck'>..>
+   <img src = 'https://avatars.githubusercontent.com/<knzmck'>..>  
 
    
