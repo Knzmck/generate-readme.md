@@ -41,8 +41,8 @@ function generateMarkdown(data) {
 
    ## Developer  
 
-   <img src="https://avatars.githubusercontent.com/${data.username}" style="height: 25px; width: 25px; border-radius: 100%;">   
-   ${data.username}
+   <img src="https://avatars.githubusercontent.com/${data.user}" style="height: 25px; width: 25px; border-radius: 100%;">   
+   
    ## Questions  
 
    Please direct all questions to development at this email ${data.questions}  

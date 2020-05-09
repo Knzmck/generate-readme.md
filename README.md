@@ -1,4 +1,4 @@
-#  title
+#  Git project
 
    ## Table of Contents  
    * About  
@@ -12,17 +12,17 @@
    
    ## About   
 
-   things  
+   motivation  
 
-   stuff  
+   desc  
 
    ## Installation   
 
-   places  
+   instructions  
 
    ## Usage  
 
-   hi  
+   use  
 
    ## License  
 
@@ -40,11 +40,11 @@
 
    ## Developer  
 
-   <img src="https://avatars.githubusercontent.com/undefined" style="height: 25px; width: 25px; border-radius: 100%;">   
-   undefined
+   <img src="https://avatars.githubusercontent.com/knzmck" style="height: 25px; width: 25px; border-radius: 100%;">   
+   
    ## Questions  
 
-   Please direct all questions to development at this email knz@email.com  
+   Please direct all questions to development at this email email@email.com  
 
 
    
