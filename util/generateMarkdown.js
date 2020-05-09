@@ -43,7 +43,7 @@ function generateMarkdown(data) {
 
    ## Developer  
 
-   <img src = "https://avatars.githubusercontent.com/${data.username.trim()}">   
+   <img src = "https://avatars.githubusercontent.com/${data.username}">   
 
    `;
 }

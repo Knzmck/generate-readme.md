@@ -1,4 +1,4 @@
-#  Title
+#  title
 
    ## Table of Contents
    * About 
@@ -11,37 +11,37 @@
    
    ## About   
 
-   motiv  
+   things  
 
-   desc  
+   stuff  
 
    ## Installation   
 
-   instru  
+   hi  
 
    ## Usage  
 
-   use  
+   bye  
 
    ## License  
 
-   This product is licensed by company  
+   This product is licensed by seya  
 
    ## Contributing  
 
-   me  
+   con  
 
 
    ## Tests  
 
-   link  
+   oo  
 
    ## Questions  
 
-   questio  
+   stuf  
 
    ## Developer  
 
-   <img src = 'https://avatars.githubusercontent.com/<knzmck'>..>  
+   <img src = "https://avatars.githubusercontent.com/undefined">   
 
    
