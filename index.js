@@ -3,7 +3,6 @@ const fs = require('fs');
 const generateMarkdown = require("./util/generateMarkdown")
 const util = require("util");
 const axios = require("axios");
-
 const writeFileAsync = util.promisify(fs.writeFile);
 
 questions = [
