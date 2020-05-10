@@ -1,3 +1,4 @@
+// Function to generate markdown layout
 function generateMarkdown(data) {
   return `#  ${data.title}
 
@@ -45,7 +46,7 @@ function generateMarkdown(data) {
 
    ## Questions  
 
-   Please direct all questions to development at this email ${data.questions}  
+   Please direct all questions the developer at this email ${data.questions}  
 
 
    `;

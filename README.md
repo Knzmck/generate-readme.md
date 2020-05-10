@@ -1,4 +1,4 @@
-#  Git project
+#    
 
    ## Table of Contents  
    * About  
@@ -12,39 +12,39 @@
    
    ## About   
 
-   motivation  
+   fj  
 
-   desc  
+    jdlfk  
 
    ## Installation   
 
-   instructions  
+   fjf  
 
    ## Usage  
 
-   use  
+   fjfj  
 
    ## License  
 
-   [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)  
+   [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)  
  
 
    ## Contributing  
 
-   i did  
+   jf  
 
 
    ## Tests  
 
-   link  
+   fjf  
 
    ## Developer  
 
-   <img src="https://avatars.githubusercontent.com/knzmck" style="height: 25px; width: 25px; border-radius: 100%;">   
-   
+   <img src="https://avatars.githubusercontent.com/dfjk" style="height: 100px; width: 100px; border-radius:100%;">   
+
    ## Questions  
 
-   Please direct all questions to development at this email email@email.com  
+   Please direct all questions to development at this email fjfjkflsd  
 
 
    

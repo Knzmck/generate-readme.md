@@ -5,6 +5,7 @@ const util = require("util");
 const axios = require("axios");
 const writeFileAsync = util.promisify(fs.writeFile);
 
+// Questions for Prompt
 questions = [
     {
         type: "input",
@@ -64,59 +65,18 @@ questions = [
 
 ]
 
-// Initialize repository
+// Main function to initialize repository and create markdown file 
 async function init() {
     try {
+        // Function first prompts user to answer series of questions about content on readme.md file
         const readmeInfo = await inquirer.prompt(questions);
+        // Info run through generate markdown function in the js doc in util folder
         const data = generateMarkdown(readmeInfo);
-
-        console.log(data)
+        // Markdown file is created 
         await writeFileAsync("README.md", data);
     } catch (err) {
         console.log(err)
     }
 }
-
+// Calling on main function
 init();
-
-
-
-// Create prompts for good readme.md file 
-// Project Title - simple text prompt
-// Motivation - simple text prompt
-// Code Style with options - HTML, CSS, JS, Jquery, ECT
-// Option to add screenshots - add JPEG or PNG
-// Tech Framework used (in bulleted list format) - Built with... electron 
-// Features - why does your code stand out? - what makes this solution better than others or different. - Simple text prompt
-// How does your code solve your problem with code examples. - maybe a bulleted list too
-// How to use? - text prompt
-// Credits - icons 
-// Licenses- 
-
-
-// write function to write file
-// Write function to initialize repository
-
-
-// usernameq = [
-//     {
-//         type: "input",
-//         name: "user",
-//         message: "What is your github username? "
-//     }
-// ]
-
-// // Verify github username
-// async function usernameVerify() {
-// try { 
-//     const username = await inquirer.prompt(usernameq);
-
-//     axios 
-//     .get("https://github.com/" + username)
-//     .then((response) => {
-//        return usernameq
-//     })
-// } catch (err) {
-//     console.log("Please enter a valid github username");
-// }
-// }
