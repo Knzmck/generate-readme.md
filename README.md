@@ -22,7 +22,8 @@
 
    ## Usage  
 
-   This software can be used to create a readme markdown file for any repository.  
+   To use this software you need visual studio code (or a similar program), NPM and a github account.  
+    Once NPM files are installed with your code, run node index.js on the command bar. You will be prompted with a series of questions about the content of your README.md file. Once you've answered all of the questions a markdown file will automatically generate which you can use for any repository. 
 
    ## License  
 
