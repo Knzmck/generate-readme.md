@@ -38,12 +38,12 @@ function generateMarkdown(data) {
 
    ## Tests  
 
-   ${data.tests}  
+   ![Image description](${data.tests})  
 
    ## Developer  
 
    <div class="CircleBadge CircleBadge--medium bg-gray-dark">
-   <img src="https://avatars.githubusercontent.com/${data.user}" height="100" width="100">   
+   <img src="https://avatars.githubusercontent.com/${data.user}" height="90" width="90">   
    </div>
 
    ## Questions  
