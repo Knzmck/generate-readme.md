@@ -42,7 +42,7 @@ function generateMarkdown(data) {
 
    ## Developer  
 
-   <img src="https://avatars.githubusercontent.com/${data.user}=100Xx100" style="height: 100px; width: 100px; border-radius:100%;">   
+   <img src="https://avatars.githubusercontent.com/${data.user}=100x100" style="height: 100px; width: 100px; border-radius:100%;">   
 
    ## Questions  
 
