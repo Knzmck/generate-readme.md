@@ -18,11 +18,11 @@
 
    ## Installation   
 
-   NPM JS is required to use this software as well as a github account.   
+   NPM is required to use this software as well as a github account.  
 
    ## Usage  
 
-   This software can be used to create a readme markdown file for any repository.   
+   This software can be used to create a readme markdown file for any repository.  
 
    ## License  
 
@@ -36,13 +36,14 @@
 
    ## Tests  
 
-   ![Image description](https://via.placeholder.com/150)  
+   ![Image description]( https://via.placeholder.com/150)  
 
    ## Developer  
 
    <div class="CircleBadge CircleBadge--medium bg-gray-dark">
    <img src="https://avatars.githubusercontent.com/Knzmck" height="90" width="90">   
-   </div>
+   </div>  
+   Knzmck  
 
    ## Questions  
 

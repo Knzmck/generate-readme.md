@@ -44,7 +44,8 @@ function generateMarkdown(data) {
 
    <div class="CircleBadge CircleBadge--medium bg-gray-dark">
    <img src="https://avatars.githubusercontent.com/${data.user}" height="90" width="90">   
-   </div>
+   </div>  
+   ${data.user}  
 
    ## Questions  
 
