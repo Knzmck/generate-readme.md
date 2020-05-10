@@ -41,7 +41,7 @@
    ## Developer  
 
    <div class="CircleBadge CircleBadge--medium bg-gray-dark">
-   <img src="https://avatars.githubusercontent.com/Knzmck" style="height: 100px; width: 100px; border-radius:100%;">   
+   <img src="https://avatars.githubusercontent.com/knzmck" height="100" width="100">   
    </div>
 
    ## Questions  
