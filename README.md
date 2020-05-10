@@ -40,7 +40,9 @@
 
    ## Developer  
 
-   <img src="https://avatars.githubusercontent.com/=100x100" style="height: 100px; width: 100px; border-radius:100%;">   
+   <div class="CircleBadge CircleBadge--medium bg-gray-dark">
+   <img src="https://avatars.githubusercontent.com/Knzmck=100x100" style="height: 100px; width: 100px; border-radius:100%;">   
+   </div>
 
    ## Questions  
 

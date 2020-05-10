@@ -42,7 +42,9 @@ function generateMarkdown(data) {
 
    ## Developer  
 
+   <div class="CircleBadge CircleBadge--medium bg-gray-dark">
    <img src="https://avatars.githubusercontent.com/${data.user}=100x100" style="height: 100px; width: 100px; border-radius:100%;">   
+   </div>
 
    ## Questions  
 
