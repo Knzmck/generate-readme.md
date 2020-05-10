@@ -1,4 +1,4 @@
-#    
+#  
 
    ## Table of Contents  
    * About  
@@ -12,39 +12,39 @@
    
    ## About   
 
-   fj  
+     
 
-    jdlfk  
+     
 
    ## Installation   
 
-   fjf  
+     
 
    ## Usage  
 
-   fjfj  
+     
 
    ## License  
 
-   [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)  
+   [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)  
  
 
    ## Contributing  
 
-   jf  
+     
 
 
    ## Tests  
 
-   fjf  
+     
 
    ## Developer  
 
-   <img src="https://avatars.githubusercontent.com/dfjk" style="height: 100px; width: 100px; border-radius:100%;">   
+   <img src="https://avatars.githubusercontent.com/=100Xx100" style="height: 100px; width: 100px; border-radius:100%;">   
 
    ## Questions  
 
-   Please direct all questions to development at this email fjfjkflsd  
+   Please direct all questions the developer at this email   
 
 
    
